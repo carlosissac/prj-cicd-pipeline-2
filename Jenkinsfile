@@ -13,7 +13,7 @@ pipeline {
                 url: 'https://github.com/carlosissac/prj-cicd-pipeline-2.git'
             }
         }
-        stage('compile') {
+        stage('build') {
             agent {
                 label 'TOMCAT01'
             }
