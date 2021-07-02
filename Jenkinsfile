@@ -18,8 +18,7 @@ pipeline {
                 label 'TOMCAT01'
             }
             steps {
-                //sh 'mvn clean package'
-                sh './mvnw clean compile package'
+                sh 'mvn clean package'
             }
         }
         stage('test') {
