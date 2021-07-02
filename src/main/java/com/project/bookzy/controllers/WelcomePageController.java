@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomePageController {
   @GetMapping("/")
   public String showWelcomeMessage() {
-  String returnMessage = "Hello ...... Welcome to Bookzy App!!!!";
+  //String returnMessage = "Hello ...... Welcome to Bookzy App!!!!";
+  String returnMessage = null;
   return returnMessage;
   }
 }
