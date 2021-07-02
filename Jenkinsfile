@@ -19,7 +19,7 @@ pipeline {
             }
             steps {
                 //sh 'mvn clean package'
-                sh './mvnw clean package'
+                sh './mvnw clean compile package'
             }
         }
         stage('test') {
