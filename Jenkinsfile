@@ -18,7 +18,7 @@ pipeline {
                 label 'TOMCAT01'
             }
             steps {
-                sh 'mvn clean package'
+                sh 'mvn clean package -DskipTests=true'
             }
         }
         stage('test') {
