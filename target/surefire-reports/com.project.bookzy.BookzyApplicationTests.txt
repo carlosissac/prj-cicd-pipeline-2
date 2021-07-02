@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.project.bookzy.BookzyApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.356 s <<< FAILURE! - in com.project.bookzy.BookzyApplicationTests
-controllerReturningNotNull  Time elapsed: 0.388 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: not <null>
-	at com.project.bookzy.BookzyApplicationTests.controllerReturningNotNull(BookzyApplicationTests.java:17)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.759 s - in com.project.bookzy.BookzyApplicationTests
