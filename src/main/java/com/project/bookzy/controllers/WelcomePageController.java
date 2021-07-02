@@ -9,5 +9,5 @@ public class WelcomePageController {
   public String showWelcomeMessage() {
   String returnMessage = "Hello ...... Welcome to Bookzy App!!!!";
   return returnMessage;
-  } 
+  }
 }
