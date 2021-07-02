@@ -26,7 +26,7 @@ pipeline {
                 label 'TOMCAT01'
             }
             steps {
-                sh 'mvn clean test'
+                sh 'mvn test'
             }
         }
         stage('deploy') {
