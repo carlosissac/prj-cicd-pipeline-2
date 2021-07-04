@@ -47,9 +47,9 @@ pipeline {
         //always {  
            // echo 'This will always run'  
         //}  
-        success {  
+        //success {  
             //echo 'This will run only if successful'  
-        }  
+        //}  
         failure {  
             //echo 'This will run only if build fails'
             mail to: 'stux.xyz.work@gmail.com',
