@@ -52,7 +52,7 @@ pipeline {
         }  
         failure {  
             //echo 'This will run only if build fails'
-            mail to: 'styx.xyz.work@gmail.com',
+            mail to: 'stux.xyz.work@gmail.com',
             subject: "FAILED: Build ${env.JOB_NAME}", 
             body: "Build failed ${env.JOB_NAME} build no: ${env.BUILD_NUMBER}.\n\nView the log at:\n ${env.BUILD_URL}\n\nBlue Ocean:\n${env.RUN_DISPLAY_URL}"
         }  
