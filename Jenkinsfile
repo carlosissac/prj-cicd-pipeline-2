@@ -43,4 +43,21 @@ pipeline {
             }
         }
     }
+    post {  
+        always {  
+            echo 'This will always run'  
+        }  
+        success {  
+            echo 'This will run only if successful'  
+        }  
+        failure {  
+            echo 'This will run only if build fails'  
+        }  
+        unstable {
+            echo 'This will run only if build is unstable'  
+        }  
+        changed {
+            echo 'This will run only if build changes'
+        }  
+    }  
 }
